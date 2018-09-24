@@ -1,4 +1,3 @@
-#include "FizzBuzzShould.h"
 #include "FizzBuzz.h"
 
 #include <gtest/gtest.h>
