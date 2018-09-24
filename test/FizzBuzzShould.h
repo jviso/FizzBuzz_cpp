@@ -1,0 +1,11 @@
+
+#ifndef FIZZBUZZ_FIZZBUZZSHOULD_H
+#define FIZZBUZZ_FIZZBUZZSHOULD_H
+
+
+class FizzBuzzShould {
+
+};
+
+
+#endif //FIZZBUZZ_FIZZBUZZSHOULD_H
