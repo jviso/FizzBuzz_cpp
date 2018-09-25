@@ -8,4 +8,6 @@ add_subdirectory(test)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(FizzBuzz test/FizzBuzzShould.cpp test/FizzBuzzShould.h src/FizzBuzz.cpp src/FizzBuzz.h)
+add_library(FizzBuzz test/FizzBuzzShould.cpp src/FizzBuzz.cpp src/FizzBuzz.h)
+include_directories("${gtest_SOURCE_DIR}/include")
+include_directories("${gmock_SOURCE_DIR}/include")

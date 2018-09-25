@@ -1,3 +1,10 @@
 #include "FizzBuzz.h"
+#include <string>
 
-bool FizzBuzz::convert() { return true; }
+using namespace std;
+
+string FizzBuzz::convert(int number)
+{
+//    return to_string(number);
+    return "1";
+}

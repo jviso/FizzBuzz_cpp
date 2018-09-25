@@ -23,7 +23,7 @@ void useit() {
     blah2(c);
 }
 
-TEST(FizzBuzzShould, ReturnTrue)
+TEST(FizzBuzzShould, Return1For1)
 {
     // var fizzBuzz = new FizzBuzz();
 //    FizzBuzz *fizzBuzz2;
@@ -32,5 +32,5 @@ TEST(FizzBuzzShould, ReturnTrue)
 //    fizzBuzz2 = new FizzBuzz();
 //    delete fizzBuzz2;
     FizzBuzz fizzBuzz; // Akin to FizzBuzz fizzBuzz = new FizzBuzz() in C#;
-    ASSERT_TRUE(fizzBuzz.convert());
+    ASSERT_EQ("1", fizzBuzz.convert(1));
 }
