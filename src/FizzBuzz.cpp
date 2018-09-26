@@ -5,6 +5,5 @@ using namespace std;
 
 string FizzBuzz::convert(int number)
 {
-//    return to_string(number);
-    return "1";
+    return to_string(number);
 }
