@@ -17,3 +17,9 @@ TEST(FizzBuzzShould, Return2For2)
     FizzBuzz fizzBuzz;
     ASSERT_EQ("2", fizzBuzz.convert(2));
 }
+
+TEST(FizzBuzzShould, ReturnFizzFor3)
+{
+    FizzBuzz fizzBuzz;
+    ASSERT_EQ("Fizz", fizzBuzz.convert(3));
+}
