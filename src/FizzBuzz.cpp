@@ -9,5 +9,9 @@ string FizzBuzz::convert(int number)
     {
         return "Fizz";
     }
+    else if (number % 5 == 0)
+    {
+        return "Buzz";
+    }
     return to_string(number);
 }

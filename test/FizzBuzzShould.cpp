@@ -23,3 +23,9 @@ TEST(FizzBuzzShould, ReturnFizzFor3)
     FizzBuzz fizzBuzz;
     ASSERT_EQ("Fizz", fizzBuzz.convert(3));
 }
+
+TEST(FizzBuzzShould, ReturnBuzzFor5)
+{
+    FizzBuzz fizzBuzz;
+    ASSERT_EQ("Buzz", fizzBuzz.convert(5));
+}
